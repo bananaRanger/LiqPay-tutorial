@@ -77,6 +77,6 @@ In the test project, I used Swift, but actions order will be the some for Object
 ## Usage
 
 <p align="center">
-  <img width="36%" height="36%" src="https://github.com/bananaRanger/LiqPay-tutorial/blob/master/Resources/example-demo.png?raw=true">
+  <img width="36%" height="36%" src="https://github.com/bananaRanger/LiqPay-tutorial/blob/master/Resources/example_demo.png?raw=true">
 </p>
 
