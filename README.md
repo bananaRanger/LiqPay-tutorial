@@ -54,7 +54,7 @@
   <img width="64%" height="64%" src="https://github.com/bananaRanger/LiqPay-tutorial/blob/master/Resources/tutorial03.png?raw=true">
 </p>
 
-4. Теперь нужно в `Build Settings` для `Library Search Paths` и `Header Search Path` проверить наличие строки `$(PROJECT_DIR)/LiqPay` (LiqPay - название папки).
+4. Теперь нужно в `Build Settings` для `Library Search Paths` и `Header Search Path` проверить наличие строки `$(PROJECT_DIR)/LiqPay` (LiqPay - имя папки).
 
 <p align="center">
   <img width="64%" height="64%" src="https://github.com/bananaRanger/LiqPay-tutorial/blob/master/Resources/tutorial04.png?raw=true">
