@@ -6,7 +6,7 @@
 
 ## Introduction
 
-Tutorial languages: [English](README.en.md), [Russian](README.md).
+Tutorial languages: [Russian](README.md), [English](README.en.md).
 
 There are a lot of applications and sites with online-payments in our time of online-shops and online-services.
 The operation that makes the user's life easier also can force programmers to drink more tea. 
