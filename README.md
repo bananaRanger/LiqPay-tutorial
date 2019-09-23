@@ -38,9 +38,30 @@
 В тестовом проекте я буду использовать `Swift`, но порядок действий не будет сильно отличаться для `Objective-C`, за исключением пункта 5 для `Objective-C` его нужно пропустить.
 
 1. В папку уже созданного проекта перетащить `.h` и `.a`, которые были скачаны с [официального репозитория](https://github.com/liqpay/sdk-ios) и создать для них папку `LiqPay`.
+
+<p align="center">
+  <img width="64%" height="64%" src="https://github.com/bananaRanger/LiqPay-tutorial/blob/master/Resources/tutorial01.png?raw=true">
+</p>
+
 2. Перейти в Xcode и нажать на файл проекта правой кнопкой мыши и выбрать 'Add Files to ...'.
+
+<p align="center">
+  <img width="64%" height="64%" src="https://github.com/bananaRanger/LiqPay-tutorial/blob/master/Resources/tutorial02.png?raw=true">
+</p>
+
 3. После добавления перейти в файл `LiqpayMob.h` и заменить строку `#import <Foundation/Foundation.h>` на строку `#import <UIKit/UIKit.h>`.
+
+<p align="center">
+  <img width="64%" height="64%" src="https://github.com/bananaRanger/LiqPay-tutorial/blob/master/Resources/tutorial03.png?raw=true">
+</p>
+
 4. Теперь нужно в `Build Settings` для `Library Search Paths` и `Header Search Path` проверить наличие строки `$(PROJECT_DIR)/LiqPay`.
+
+<p align="center">
+  <img width="64%" height="64%" src="https://github.com/bananaRanger/LiqPay-tutorial/blob/master/Resources/tutorial04.png?raw=true">
+  <img width="64%" height="64%" src="https://github.com/bananaRanger/LiqPay-tutorial/blob/master/Resources/tutorial14.png?raw=true">
+</p>
+
 5. Создать Bridging-Header.h (только для `Swift`), в котором должно быть следующее:
 
     `#import "LiqpayMob.h"`
