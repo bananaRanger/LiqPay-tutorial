@@ -1,5 +1,10 @@
 # Руководство по интеграции LiqPay для iOS
 
+
+<p align="center">
+  <img width="50%" height="50%" src="https://github.com/bananaRanger/LiqPay-tutorial/blob/master/Resources/logo_ru.png?raw=true">
+</p>
+
 ## Введение
 
 Языки руководства: [английский](README.en.md), [русский](README.md).
