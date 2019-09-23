@@ -28,9 +28,22 @@ That's why I considered creating this tutorial.
 
 First of all, you need to look through the developer's [documentation](https://www.liqpay.ua/documentation/).
 
-And download `.lib` and `.a` files from official [repo](https://github.com/liqpay/sdk-ios).
+And download `.h` and `.a` files from official [repo](https://github.com/liqpay/sdk-ios).
 
 ## Integration
+
+In the test project, I used Swift, but actions order will be the some for Objective-C, except point 5, you should skip it if you use Objective-C.
+
+1. In the folder of the created project, you should put already downloaded `.h` and `.a` files from the official [repo](https://github.com/liqpay/sdk-ios) and create the `LiqPay` folder for them.
+2. Go to Xcode and click a right mouse button on the project's file and select 'Add Files to ...'.
+3. Go to `LiqpayMob.h` file and change row `#import <Foundation/Foundation.h>` to row `#import <UIKit/UIKit.h>`.
+4. Go to `Build Settings` check existing of `$(PROJECT_DIR)/LiqPay` row for  `Library Search Paths` and `Header Search Path`. 
+5. Create Bridging-Header.h (only for `Swift`) with content:
+
+    `#import "LiqpayMob.h"`
+    
+6. Build project.
+7. Framework LiqPay is integrated.
 
 ## Usage
 
