@@ -69,4 +69,8 @@
 6. Cбилдить проект.
 7. Теперь библиотека LiqPay интегрирована в Ваш проект.
 
+<p align="center">
+  <img width="64%" height="64%" src="https://github.com/bananaRanger/LiqPay-tutorial/blob/master/Resources/tutorial07.png?raw=true">
+</p>
+
 ## Использование 
