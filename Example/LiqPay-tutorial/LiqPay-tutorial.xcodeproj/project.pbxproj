@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40D1D2D22338ED6800B5E248 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D1D2D12338ED6800B5E248 /* AppDelegate.swift */; };
+		40D1D2D42338ED6800B5E248 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D1D2D32338ED6800B5E248 /* ViewController.swift */; };
+		40D1D2D72338ED6800B5E248 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D1D2D52338ED6800B5E248 /* Main.storyboard */; };
+		40D1D2D92338ED6B00B5E248 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40D1D2D82338ED6B00B5E248 /* Assets.xcassets */; };
+		40D1D2DC2338ED6B00B5E248 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40D1D2DA2338ED6B00B5E248 /* LaunchScreen.storyboard */; };
+		40D1D2EE2338FE4300B5E248 /* libLiqpayMob_universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40D1D2EC2338FE4300B5E248 /* libLiqpayMob_universal.a */; };
+		40D1D2F0233904BB00B5E248 /* LiqPayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D1D2EF233904BB00B5E248 /* LiqPayManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		40D1D2CE2338ED6800B5E248 /* LiqPay-tutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LiqPay-tutorial.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D1D2D12338ED6800B5E248 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		40D1D2D32338ED6800B5E248 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		40D1D2D62338ED6800B5E248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40D1D2D82338ED6B00B5E248 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40D1D2DB2338ED6B00B5E248 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40D1D2DD2338ED6B00B5E248 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40D1D2E72338F32500B5E248 /* LiqPay-tutorial-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LiqPay-tutorial-Bridging-Header.h"; sourceTree = "<group>"; };
+		40D1D2EC2338FE4300B5E248 /* libLiqpayMob_universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLiqpayMob_universal.a; sourceTree = "<group>"; };
+		40D1D2ED2338FE4300B5E248 /* LiqpayMob.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiqpayMob.h; sourceTree = "<group>"; };
+		40D1D2EF233904BB00B5E248 /* LiqPayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiqPayManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40D1D2CB2338ED6800B5E248 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D1D2EE2338FE4300B5E248 /* libLiqpayMob_universal.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40D1D2C52338ED6800B5E248 = {
+			isa = PBXGroup;
+			children = (
+				40D1D2EB2338FE4300B5E248 /* LiqPay */,
+				40D1D2D02338ED6800B5E248 /* LiqPay-tutorial */,
+				40D1D2CF2338ED6800B5E248 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		40D1D2CF2338ED6800B5E248 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40D1D2CE2338ED6800B5E248 /* LiqPay-tutorial.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40D1D2D02338ED6800B5E248 /* LiqPay-tutorial */ = {
+			isa = PBXGroup;
+			children = (
+				40D1D2D12338ED6800B5E248 /* AppDelegate.swift */,
+				40D1D2EF233904BB00B5E248 /* LiqPayManager.swift */,
+				40D1D2D32338ED6800B5E248 /* ViewController.swift */,
+				40D1D2D52338ED6800B5E248 /* Main.storyboard */,
+				40D1D2D82338ED6B00B5E248 /* Assets.xcassets */,
+				40D1D2DA2338ED6B00B5E248 /* LaunchScreen.storyboard */,
+				40D1D2DD2338ED6B00B5E248 /* Info.plist */,
+				40D1D2E72338F32500B5E248 /* LiqPay-tutorial-Bridging-Header.h */,
+			);
+			path = "LiqPay-tutorial";
+			sourceTree = "<group>";
+		};
+		40D1D2EB2338FE4300B5E248 /* LiqPay */ = {
+			isa = PBXGroup;
+			children = (
+				40D1D2EC2338FE4300B5E248 /* libLiqpayMob_universal.a */,
+				40D1D2ED2338FE4300B5E248 /* LiqpayMob.h */,
+			);
+			path = LiqPay;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40D1D2CD2338ED6800B5E248 /* LiqPay-tutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40D1D2E02338ED6B00B5E248 /* Build configuration list for PBXNativeTarget "LiqPay-tutorial" */;
+			buildPhases = (
+				40D1D2CA2338ED6800B5E248 /* Sources */,
+				40D1D2CB2338ED6800B5E248 /* Frameworks */,
+				40D1D2CC2338ED6800B5E248 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LiqPay-tutorial";
+			productName = "LiqPay-tutorial";
+			productReference = 40D1D2CE2338ED6800B5E248 /* LiqPay-tutorial.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40D1D2C62338ED6800B5E248 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Powercode;
+				TargetAttributes = {
+					40D1D2CD2338ED6800B5E248 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 40D1D2C92338ED6800B5E248 /* Build configuration list for PBXProject "LiqPay-tutorial" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40D1D2C52338ED6800B5E248;
+			productRefGroup = 40D1D2CF2338ED6800B5E248 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40D1D2CD2338ED6800B5E248 /* LiqPay-tutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40D1D2CC2338ED6800B5E248 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D1D2DC2338ED6B00B5E248 /* LaunchScreen.storyboard in Resources */,
+				40D1D2D92338ED6B00B5E248 /* Assets.xcassets in Resources */,
+				40D1D2D72338ED6800B5E248 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40D1D2CA2338ED6800B5E248 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D1D2F0233904BB00B5E248 /* LiqPayManager.swift in Sources */,
+				40D1D2D42338ED6800B5E248 /* ViewController.swift in Sources */,
+				40D1D2D22338ED6800B5E248 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		40D1D2D52338ED6800B5E248 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40D1D2D62338ED6800B5E248 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40D1D2DA2338ED6B00B5E248 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40D1D2DB2338ED6B00B5E248 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40D1D2DE2338ED6B00B5E248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		40D1D2DF2338ED6B00B5E248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40D1D2E12338ED6B00B5E248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/LiqPay";
+				INFOPLIST_FILE = "LiqPay-tutorial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LiqPay",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anton.yereshchenko.LiqPay-tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LiqPay-tutorial/LiqPay-tutorial-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40D1D2E22338ED6B00B5E248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/LiqPay";
+				INFOPLIST_FILE = "LiqPay-tutorial/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LiqPay",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.anton.yereshchenko.LiqPay-tutorial";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LiqPay-tutorial/LiqPay-tutorial-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40D1D2C92338ED6800B5E248 /* Build configuration list for PBXProject "LiqPay-tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D1D2DE2338ED6B00B5E248 /* Debug */,
+				40D1D2DF2338ED6B00B5E248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40D1D2E02338ED6B00B5E248 /* Build configuration list for PBXNativeTarget "LiqPay-tutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40D1D2E12338ED6B00B5E248 /* Debug */,
+				40D1D2E22338ED6B00B5E248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40D1D2C62338ED6800B5E248 /* Project object */;
+}
