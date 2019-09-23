@@ -56,7 +56,7 @@ In the test project, I used Swift, but actions order will be the some for Object
   <img width="64%" height="64%" src="https://github.com/bananaRanger/LiqPay-tutorial/blob/master/Resources/tutorial03.png?raw=true">
 </p>
 
-4. Go to `Build Settings` check existing of `$(PROJECT_DIR)/LiqPay` row for  `Library Search Paths` and `Header Search Path`.
+4. Go to `Build Settings` check existing of `$(PROJECT_DIR)/LiqPay` (LiqPay is folder name) row for  `Library Search Paths` and `Header Search Path`.
 
 <p align="center">
   <img width="64%" height="64%" src="https://github.com/bananaRanger/LiqPay-tutorial/blob/master/Resources/tutorial04.png?raw=true">
