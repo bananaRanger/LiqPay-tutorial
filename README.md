@@ -76,6 +76,10 @@ Tutorial languages: [Russian](README.md), [English](README.en.md).
 
 ## Использование 
 
+Файл [LiqPayManager.swift](https://github.com/bananaRanger/LiqPay-tutorial/blob/master/Example/LiqPay-tutorial/LiqPay-tutorial/LiqPayManager.swift) содержит пример взаимодействия с библиотекой LiqPay через [платежную страницу](https://www.liqpay.ua/documentation/api/aquiring/checkout/).
+
+#### Пример работы demo приложения
+
 <p align="center">
   <img width="64%" height="64%" src="https://github.com/bananaRanger/LiqPay-tutorial/blob/master/Resources/example_demo.png?raw=true">
 </p>
