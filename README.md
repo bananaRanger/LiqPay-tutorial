@@ -28,9 +28,11 @@ Tutorial languages: [Russian](README.md), [English](README.en.md).
 
 ## Начало 
 
-Перед тем как начать следует ознакомится с [официальной документацией](https://www.liqpay.ua/documentation/).
+Вам следует:
 
-Также нужно скачать `.h` и `.a` файлы с [официального репозитория](https://github.com/liqpay/sdk-ios).
+* Ознакомится с [официальной документацией](https://www.liqpay.ua/documentation/);
+* Пройти регистрацию на сайте [LiqPay](https://www.liqpay.ua/documentation/start);
+* Скачать `.h` и `.a` файлы с [официального репозитория](https://github.com/liqpay/sdk-ios).
 
 ## Интеграция 
 
