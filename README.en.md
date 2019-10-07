@@ -30,9 +30,11 @@ That's why I considered creating this tutorial.
 
 ## Start
 
-First of all, you need to look through the developer's [documentation](https://www.liqpay.ua/documentation/).
+You should:
 
-And download `.h` and `.a` files from official [repo](https://github.com/liqpay/sdk-ios).
+* register your account on [LiqPay](https://www.liqpay.ua/documentation/start);
+* look through the developer's [documentation](https://www.liqpay.ua/documentation/);
+* download `.h` and `.a` files from official [repo](https://github.com/liqpay/sdk-ios).
 
 ## Integration
 
